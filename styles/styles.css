@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles */
+body {
+    background: linear-gradient(63deg, #040006 -2.05%, #62005F 112.81%);
+    font-family: 'Inter', sans-serif;
+    /* color: #fff; */
+}
+
+/* header styles */
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo-info {
+    display: flex;
+    gap: 8px;
+}
+
+.logo-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.menubar-info ul {
+    display: flex;
+    gap: 55px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.gap {
+    position: relative;
+    left: 5px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 9px;
+}
+
+.contact-title a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* banner styles */
+.banner {
+    color: #FFF;
+    display: flex;
+    gap: 7px;
+    width: 1130px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.banner-sub-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FD7452;
+}
+
+.banner-title {
+    font-size: 52px;
+    font-weight: 300;
+    padding-top: 28px;
+}
+
+
+.banner-title-h1{
+    padding-top: 0px;
+    font-size: 52px;
+    font-weight: 300;
+}
+.banner-title-span {
+    color: #FD7452;
+    font-weight: 800; 
+}
+
+.banner-description {
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 51px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #FF5A37;
+    border-radius: 40px;
+    width: 141px;
+    height: 32px;
+    padding: 8px;
+    /* background: linear-gradient(86deg, #FF5A37 0.61%, #FF3778 127.62%); */
+}
+
+.btn {
+    color: #FFF;
+    background-color: #FF5A37;
+    border: 0;
+}
+
+.button img {
+    width: 16px;
+    height: 16px;
+}
+
+.services a {
+    color: #FFF;
+    text-decoration: 0;
+}
+
+.banner-image{
+    /* position: relative; */
+    border-radius: 240px 240px 0px 0px;
+    background: linear-gradient(31deg, #140119 1.55%, #5B0E4E 88.54%);
+    box-shadow: 0px 4px 250px 0px rgba(255, 201, 62, 0.25);
+}
+.banner-image img {
+    margin-top: 100px;
+}
